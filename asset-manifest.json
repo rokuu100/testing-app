@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/testing-app/static/css/main.0b7d6420.css",
-    "main.js": "/testing-app/static/js/main.09716aa9.js",
+    "main.js": "/testing-app/static/js/main.296b01d0.js",
     "static/js/453.96bacbde.chunk.js": "/testing-app/static/js/453.96bacbde.chunk.js",
     "static/media/Logo_UC3M.png": "/testing-app/static/media/Logo_UC3M.9fbb0e4b6d035ce0323c.png",
     "index.html": "/testing-app/index.html",
     "main.0b7d6420.css.map": "/testing-app/static/css/main.0b7d6420.css.map",
-    "main.09716aa9.js.map": "/testing-app/static/js/main.09716aa9.js.map",
+    "main.296b01d0.js.map": "/testing-app/static/js/main.296b01d0.js.map",
     "453.96bacbde.chunk.js.map": "/testing-app/static/js/453.96bacbde.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b7d6420.css",
-    "static/js/main.09716aa9.js"
+    "static/js/main.296b01d0.js"
   ]
 }
