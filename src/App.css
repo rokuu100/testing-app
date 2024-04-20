@@ -39,3 +39,61 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  text-align: center;
+background-image: linear-gradient(to right, rgba(255, 129, 119, 0.5) 0%, rgba(255, 134, 122, 0.5) 0%, rgba(255, 140, 127, 0.5) 21%, rgba(249, 145, 133, 0.5) 52%, rgba(207, 85, 108, 0.5) 78%, rgba(177, 42, 91, 0.5) 100%),
+ url(https://c749439e.rocketcdn.me/wp-content/uploads/2020/02/UC3M-universidad-carlos-III-scaled.jpg);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Trebuchet MS;
+  font-size: 17px;
+}
+h1 {
+  padding-top: 25px;
+}
+
+
+form {
+  background-color: rgba(192,99,82, 0.65);
+  width: 60wv;
+  max-width: 500px;
+  min-width: 200px;
+  margin: 40px auto 50px auto;
+  box-shadow: 0 0 20px 0 rgba(212,207,204,0.5);
+  padding: 10px;
+}
+
+label {
+  color: rgba(25,12,11,1);
+  padding-bottom: 2px;
+  display: block;
+}
+
+input {
+  margin: 10px auto 10px auto;
+  border: 2px solid #0a0a23;
+  background-color: rgb(239,242,240);
+  vertical-align: middle;
+  
+}
+
+input[type="number"] {
+  padding-right: 50px;
+}
+
+textarea,option {
+  background-color: rgb(239,242,240);
+  border: 2px solid #0a0a23;
+}
+#submit{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: rgba(123,240,170,1);
+  border-color: rgba(42,73,54);
+  border-width: 3px;
+  display: block;
+
+}
