@@ -18,7 +18,7 @@ function App() {
              <option value="">Choose an option...</option>
              <option value="1">Ingeniería informática</option>
              <option value="2">Matemática Aplicada y Computación</option>
-             <option value="3">Ingeniería Biomédica</option>
+             <option value="3">Ingeniería de Software</option>
            </select>
         
         <legend>Would you study Physics in your near future?</legend>
