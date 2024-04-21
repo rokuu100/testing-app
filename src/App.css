@@ -40,7 +40,7 @@
 }
 
 body {
-  text-align: center;
+  text-align: left;
 background-image: linear-gradient(to right, rgba(255, 129, 119, 0.5) 0%, rgba(255, 134, 122, 0.5) 0%, rgba(255, 140, 127, 0.5) 21%, rgba(249, 145, 133, 0.5) 52%, rgba(207, 85, 108, 0.5) 78%, rgba(177, 42, 91, 0.5) 100%),
  url(https://c749439e.rocketcdn.me/wp-content/uploads/2020/02/UC3M-universidad-carlos-III-scaled.jpg);
   background-size: auto;
@@ -51,8 +51,12 @@ background-image: linear-gradient(to right, rgba(255, 129, 119, 0.5) 0%, rgba(25
 }
 h1 {
   padding-top: 25px;
+  text-align: center;
 }
 
+p {
+  text-align: center;
+}
 
 form {
   background-color: rgba(192,99,82, 0.65);
@@ -70,24 +74,35 @@ label {
   display: block;
 }
 
-input {
-  margin: 10px auto 10px auto;
-  border: 2px solid #0a0a23;
-  background-color: rgb(239,242,240);
-  vertical-align: middle;
-  
+.spaceneeded {
+  display: block;
+  margin: 10px auto 40px auto;
 }
 
-input[type="number"] {
-  padding-right: 50px;
+.lastelement {
+  margin: 0 auto 40px auto;
 }
+input {
+  margin: 10px auto 10px auto;
+  background-color: rgb(239,242,240);
+  vertical-align: middle;
+  padding: 7px;
+}
+
+#email, #name, #number, #dropdown {
+  width: 500px;
+  padding: 7px;
+  display: left;
+  border: 2px solid #0a0a23;
+}
+
 
 textarea,option {
   background-color: rgb(239,242,240);
   border: 2px solid #0a0a23;
 }
 #submit{
-  margin-top: 10px;
+  margin-top: 40px;
   margin-bottom: 10px;
   padding: 10px;
   background-color: rgba(123,240,170,1);
